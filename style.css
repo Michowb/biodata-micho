@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: row;  
+    background: #FFFFFF;
+    padding: 50px;
+    box-shadow: 0px 80px 50px -30px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    border-radius: 13.6038px;
+    gap: 40px;
+
+}
+.fotoku {
+    width: 200px;
+    height: 200px;
+    padding: 40px 40px;
+    background-image: url(/maskot.png);
+    background-size: cover;
+    border-radius: 13.6038px;
+    box-shadow: 0px 34.0095px 108.831px rgba(0, 0, 0, 0.4);
+    border-radius: 13.6038px;
+    margin-left: 60px;
+    background-color: transparent;
+}
+.kotak-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:30px;
+    text-align: left;
+}
+.titel h1 {
+    font-size: 40px;
+}
